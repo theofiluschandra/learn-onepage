@@ -1,0 +1,102 @@
+body {
+  margin: 0 auto;
+  background-color: #E0DFDD;
+  color: #060606;
+  max-width: 1140px;
+  font-family: "Archivo", sans-serif;
+}
+
+body h1 {
+  font-size: 5rem;
+}
+
+body p,
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body a {
+  margin: 0px;
+}
+
+body .container {
+  height: 100vh;
+}
+
+body img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.grid-wrapper {
+  display: -ms-grid;
+  display: grid;
+}
+
+.section1 .container {
+  -ms-flex-line-pack: space-evenly;
+      align-content: space-evenly;
+}
+
+.section1 .container p {
+  font-size: 3.5rem;
+  text-align: right;
+  font-weight: 700;
+}
+
+.section1 .container p span {
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+
+.section1 .container .image-wrapper {
+  height: 120px;
+  width: 500px;
+  background-color: #E0DFDD;
+}
+
+.section1 .container .image-wrapper img {
+  opacity: 0.7;
+}
+
+.work-experience .container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.work-experience .container .work-wrapper .company-name {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.work-experience .container .work-wrapper .position {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+.work-experience .container .work-wrapper .year {
+  font-size: 1.3rem;
+  font-weight: 100;
+  letter-spacing: 8px;
+}
+
+.work-experience .container .detail-wrapper ul li {
+  font-size: 1.3rem;
+  margin-bottom: 1.8rem;
+}
+
+.work-experience .container .detail-wrapper ul li:last-child {
+  margin-bottom: 0px;
+}
+/*# sourceMappingURL=style.css.map */
